@@ -1,10 +1,14 @@
 package Just_Java.Reflections;
 
+import Just_Java.Reflections.Annotations.JsonField;
+
 import java.io.Serializable;
 
 public class Car implements Serializable {
 
+    @JsonField
     private String make;
+    @JsonField
     private String model;
     private String year;
 
