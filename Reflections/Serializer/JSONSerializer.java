@@ -10,6 +10,11 @@ import java.util.stream.Collectors;
  */
 public class JSONSerializer {
 
+    /**
+     * Serialize all the attributes of class
+     * @param object
+     * @return
+     */
     public String serialize(Object object) {
         Map<String, String> map = new HashMap<>();
         try {
